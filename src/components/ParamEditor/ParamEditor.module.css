@@ -1,0 +1,215 @@
+.block {
+    display: flex;
+    width: auto;
+    align-items: center;  
+    height: 57px;  
+}
+
+.title {
+    margin-right: 10px;
+    font-weight: bold;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    justify-content: end;
+}
+
+
+.title__change {
+    width: 33%;    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.title_input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.title_button {
+    position: absolute;
+    right: 4%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+}
+
+.select {
+    width: 200px;
+    padding: 2px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.select.option:active {
+    background-color: blue;
+}
+
+
+.settingBlock {    
+    display: flex;
+    margin-bottom: 0;  
+}
+
+.settingBlock__block {    
+    background-color: #f7f7f7;
+    padding: 5px 20px;    
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+
+.settingImg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    margin: auto;
+}
+
+.settingBlock__description {
+    margin: 0;
+    cursor: pointer;
+}
+
+.settingBlock__description:hover {
+    color: blue
+}
+
+/* Create new Params */
+.newParams__block {
+    width: 100%;
+    display: block;
+    margin-left: 80px;
+    
+}
+
+.newParams__inputBlock {
+    margin-top: 10px;
+    display: block;
+    margin-left: 80px;
+    width: 231px;    
+}
+
+.newParams__input {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.newParams__input:active {
+    border: 1px solid;
+}
+
+.newParams__inputButton {
+    width: 100%;
+}
+
+/* Modal windows */
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-height: auto;
+    background-color: rgba(0,0,0,.45);
+}
+
+.modal__block {
+    position: absolute;
+    width: auto;
+    height: auto;    
+    background: #fff;
+    box-shadow: -10px 40px 24px rgb(0 0 0 / 10%);
+    padding: 30px;
+    top: 20%;
+    left: 36%;
+    
+    border-radius: 10px;
+}
+
+.modal__title {
+    margin-bottom: 10px;
+}
+
+.modal__description {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.modal__descriptionTitle {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.modal__editAndDelit {
+    display: flex;
+}
+
+.modal__edit {    
+    color: rgb(170, 163, 163);    
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modal__closs {
+    cursor: pointer;    
+    border: none;
+    background: none;
+}
+
+.modal__button {
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;    
+}
+
+.modal__createModel {
+    position: absolute;
+    width: 400px;
+    height: 100px;    
+    background: #fff;
+    box-shadow: -10px 40px 24px rgb(0 0 0 / 10%);
+    padding: 15px;
+    top: 22.1%;
+    left: 75%;
+    transform: translate(-50%, -20%);
+    border-radius: 10px;
+}
+
+.button_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__changeParams {
+    display: flex;
+    justify-content: center;
+}
+
+.modal__change {
+    cursor: pointer;
+    margin-left: 10px;
+    transform: rotate(90deg)
+}
+
+.modal__titleParams {
+    font-size: large;
+    font-weight: 700;
+}
